@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:wght@700&display=swap');
+
+.App{
+    text-align: center;
+    background-color: #020102d2;
+    min-height: 100vh;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Bona Nova', serif;
+}
+
+
+h4{
+    color: #ffffff;
+}
+
+input{
+    border-radius: 15px;
+    text-decoration: solid;
+}
+.colTask div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colTask {
+    background-color: #555;
+    min-width: fit-content;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px 140px 10px 15px;
+    text-align: left;
+    font-size: 22px;
+    position: relative;
+}
+
+
+.taskNumber{
+    color:#ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.colTask .taskText{
+    flex: 1;
+    color: #ffffff;
+}
+
+.colTask .done .taskText{
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+
+.icons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    width: auto;
+    display: inline-block;
+}
+
+.colTask .icons span{
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.colTask .icons span:hover{
+    color: rgba(83, 83, 235, 0.678);
+}
+
+.mr-20{
+    margin-right: 20px;
+}
+
+.btnSuccess{
+    margin-top: 5px;
+    border-radius: 20px;
+    color: white;
+    background-color: #555;
+}
+
+.btnWarning{
+    border-radius: 20px;
+    color: white;
+    background-color: #555;
+}
